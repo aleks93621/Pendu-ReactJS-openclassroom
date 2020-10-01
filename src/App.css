@@ -1,0 +1,29 @@
+.center-middle {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.masked-text {
+	margin: 30px 0px;
+	letter-spacing: 10px;
+	font-size: 21px;
+}
+
+.letters-block {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.letters-block > * {
+	flex: 1 1 37px;
+}
+
+.hidden {
+	display: none;
+}
+
+.restart {
+	border: 0px;
+}
